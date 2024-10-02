@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import { RouterView } from 'vue-router';
+import Nav from './layout/Nav.vue';
 </script>
 
 <template>
-  <div>Hello world </div>
+ <Nav/>
+ <RouterView/>
 </template>
 
 <style lang="scss"  scoped>
